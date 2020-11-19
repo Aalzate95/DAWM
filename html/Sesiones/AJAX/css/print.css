@@ -1,0 +1,20 @@
+/*
+  No debe aparecer: la barra de navegación, ni section#cabecera 
+
+  Usa: 
+  
+  display: none o visibility:hidden
+
+*/
+
+nav, section#cabecera {
+  display: none;
+}
+
+.tituloseccion {
+  color: black;
+}
+
+.nomostrar {
+  display: none;
+}

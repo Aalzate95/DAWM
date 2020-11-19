@@ -1,0 +1,11 @@
+<recursos>
+  <caption>Recursos registrados</caption>
+  <recurso>
+    <tipo>Ideas</tipo>
+    <cantidad>325</cantidad>
+  </recurso>
+  <recurso>
+    <tipo>Pensamientos</tipo>
+    <cantidad>1022</cantidad>
+  </recurso>
+</recursos>

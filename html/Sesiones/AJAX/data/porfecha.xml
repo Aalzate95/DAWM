@@ -1,0 +1,17 @@
+<recursos>
+  <caption>Conexiones por facultad y por mes</caption>
+  <meses>
+    <mes id="9">Septiembre</mes>
+    <mes id="10">Octubre</mes>
+  </meses>
+  <recurso>
+    <nombre>Ideas</nombre>
+    <cantidad mes="9">300</cantidad>
+    <cantidad mes="10">430</cantidad>
+  </recurso>
+  <recurso>
+    <nombre>Pensamientos</nombre>
+    <cantidad mes="9">230</cantidad>
+    <cantidad mes="10">72</cantidad>
+  </recurso>
+</recursos>

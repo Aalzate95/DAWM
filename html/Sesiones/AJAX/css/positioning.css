@@ -1,0 +1,59 @@
+/* Relative */
+
+
+#description {
+  position: relative;
+  display: inline-block;
+}
+
+/* Absolute */
+
+
+#description .tooltip {
+  visibility: hidden;
+  width: 300px;
+  background-color: #158db5;
+  color: white;
+  text-align: justify;
+  padding: 2px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  margin-left: -120px; 
+}
+
+img:hover + #description .tooltip {
+  visibility: visible;
+}
+
+/* Fixed */
+
+div#chat {
+  background-color: #0e89b2;
+  border: 1px solid #0e89b2;
+  border-radius: 6px 6px 0 0;
+  padding: 0 2% 0;
+}
+
+div#chat h4 {
+  margin: 4% 0 4%;
+  color: #ffffff;
+}
+
+div#chat {
+  position: fixed;
+  bottom: 0;
+  right: 2%;
+  z-index: 999;
+}
+
+/* Sticky */
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="icon" type="image/svg" href="icon/ideas.svg" />
+
+    <title>Ideas</title>
+    
+    <meta name="author" content="Allan Avendaño" />
+    <meta name="keywords" content="ideas, pensamientos, conexión, gente" />
+
+  </head>
+   <body>
+    <header>
+      <h1>Ideas</h1>
+      <h2>Porque el mundo está hecho de ideas</h2>
+    </header>
+
+    <nav id="navegacion">
+      <ul>
+        <li><a href="/">Principal</a></li>
+      </ul>
+    </nav>
+ 
+    <section id="cabecera">
+      <img src="img/ideas.png" alt="Logo de Ideas" width="200" height="200" />
+    </section>
+
+    <!-- 
+        Agrega un formulario
+        Utiliza como referencia https://www.w3schools.com/html/html_forms.asp 
+      -->
+
+    <!-- 
+      Agrega un formulario de registro para los siguientes datos:
+
+      - Nombres (requerido), 
+      - Apellidos (requerido), 
+      - Correo electrónico (requerido), 
+      - Género (radio - solo una opción es posible escoger), 
+      - Tipo (select - una lista de valores: estudiante, profesor y externo)
+      - Fecha de nacimiento (requerido)
+      - Mensaje (área de texto, 10 filas y 30 columnas)
+      - No soy un robot (checkbox) (requerido)
+      - Deseo recibir boletines (checkbox)
+      -->
+    <form>
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input type="text"
+          name="nombre" id="nombre" required="required">
+        </p>
+        <p>
+          <label for="apellido">Apellidos:</label>
+          <input type="text"
+          name="apellido" id="apellido" required="required">
+        </p>
+        <p>
+          <label for="correo">Correo:</label>
+          <input type="email"
+          name="correo" id="correo" required="required">
+        </p>
+        <p>
+         <input type="radio" id="masculino" name="genero" value="masculino"
+         checked>
+         <label for="masculino">Masculino</label>
+         <input type="radio" id="femenino" name="genero" value="femenino"
+         checked>
+         <label for="femenino">Femenino</label>
+         <input type="radio" id="otro" name="genero" value="otro"
+         checked>
+          <label for="otro">Otro</label>
+        </p>
+        <p>
+          <label for="fecha">Fecha:</label>
+          <input type="date"
+          name="fecha" id="fecha" required="required">
+        </p>
+        <p>
+          <label for="mensaje">Mensaje:</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <input type="checkbox" id="robot" name="robot" required="required">
+          <label for="robot">No soy un robot</label>
+          <br>
+          <input type="checkbox" id="boletines" name="boletines" checked>
+          <label for="boletines">Deseo recibir boletines </label>
+        </p>
+        <input type="submit" value="Enviar">
+      </form>
+    
+
+    <footer>
+      <p>Copyright &copy; 2020 - Pensamientos </p>
+      </p>Iconos diseñados por <a href="https://www.flaticon.es/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

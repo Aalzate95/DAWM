@@ -1,0 +1,219 @@
+/*
+	Aplicar a todos los elementos,
+	la propiedad: 
+		font-family: 'Lato', sans-serif;
+*/
+
+* {
+  font-family: 'Lato', 'Georgia', sans-serif;
+}
+
+
+/*
+	Aplicar al elemento con el id "cabecera",
+	las propiedades
+		background-color: #f9daae;
+    text-align: center;
+    padding: 1% 0 1% 0;	
+*/
+
+#cabecera {
+  background-color: rgb(22, 176, 230);
+  text-align: center;
+  padding: 1% 0 1% 0;	
+}
+
+
+/*
+  Aplicar a los elementos li, la propiedad:
+    list-style-type: none;
+*/
+
+li {
+  list-style-type: none;
+}
+
+/*
+  Aplicar a todas las etiquetas con la clase 'tituloseccion', la propiedad:
+    color: #2A457F;
+*/
+
+.tituloseccion {
+  color: #2A457F;
+}
+
+/*
+  Aplicar a todas las etiquetas h3 y p,
+  la propiedad: 
+    margin-left: 3rem;
+    margin-right: 3rem;
+*/
+
+h3, p {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+/*
+	Aplicar a la etiqueta a, que se encuentra dentro de la etiqueta div dentro de la etiqueta section (con id contenido), las propiedades:
+    text-decoration: none;
+    color: #107ad1;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 3rem;
+*/
+
+section#contenido div a {
+  text-decoration: none;
+  color: #107ad1;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 3rem;
+}
+
+
+/*
+  Aplicar a todas las etiquetas p, que sean hijas de la etiqueta footer, las propiedades:
+    margin-top: 8%;
+    text-align: center;
+*/
+
+footer > p {
+  margin-top: 8%;
+    text-align: center;
+}
+
+/*
+  Aplicar a la etiqueta img, que es adyacente a la etiqueta h2, las siguientes propiedades:
+    width: 30%;
+*/
+
+h2 + img {
+  width: 30%;
+}
+
+/*
+  Agrega a todos los hermanos p de la etiqueta h3
+  la propiedad:
+    text-align: justify;
+*/
+
+h3 ~ p {
+  text-align: justify;
+}
+
+/*
+  Agrega a las etiquetas a cuyo atributo title termine por "pik" las propiedades:
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+
+  Desde Google Fonts, importe la fuente Caveat
+
+    font-family: 'Caveat', cursive;
+*/
+
+a[title$="pik"] {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Caveat', cursive;
+}
+
+/*
+  Aplicar las siguientes propiedades:
+
+  li:hover a::before {
+    content: "[";
+  }
+
+  li:hover a::after {
+    content: "]";
+  }
+
+  li:hover a:hover {
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: #2a457f;
+  }
+
+  li a { 
+    float: left;
+    margin-left: 2%;
+  }
+
+  nav#navegacion {
+    padding-bottom: 39px;
+  }
+*/
+
+/*li:hover a::before {
+  content: "[";
+}
+
+li:hover a::after {
+  content: "]";
+}
+
+li:hover a:hover {
+  font-weight: bold;
+}*/
+
+a:visited {
+  color: #2a457f;
+}
+
+li a { 
+  float: left;
+  margin-left: 2%;
+}
+
+nav#navegacion {
+  padding-bottom: 39px;
+}
+
+
+/*
+  Aplicar las siguientes propiedades:
+  
+    p::-moz-selection {
+      background: #f1c40f;
+    }
+
+    p::selection {
+      background: #f1c40f;
+    }
+*/
+
+p::-moz-selection {
+  background: #f1c40f;
+}
+
+p::selection {
+  background: #f1c40f;
+}
+
+/*
+  Aplique las siguientes propiedades a div#ideas y div#pensamientos:
+
+    float: left;
+    width: 49%;
+
+    -------
+
+    display: inline-block;
+    width: 49%;
+*/
+
+/*div#ideas, div#pensamientos {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}*/
+
+header, section h2 {
+    display: none !important;
+}
+
