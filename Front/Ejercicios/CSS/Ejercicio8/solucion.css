@@ -1,0 +1,16 @@
+table tbody tr:nth-child(2n+1){
+    background: #eee;
+}
+
+table tbody tr:nth-child(-n+2){
+    background: rgb(209, 138, 138);
+}
+
+table tbody tr:nth-child(4n){
+    background: rgb(151, 235, 118) ;
+}
+
+table tbody tr:last-child{
+    background: #333;
+    color: white;
+}
