@@ -1,0 +1,25 @@
+.social ul li {
+    transform: translateX(-95px)
+    
+}
+
+.social ul li:hover {
+    transform: translateX(0px);
+    transition: .5s;
+}
+
+.social ul li:hover:nth-child(1){
+    background-color:  #47b6f5;
+}
+
+.social ul li:hover:nth-child(2){
+    background-color:  #fc210b;
+}
+
+.social ul li:hover:nth-child(3){
+    background-color:  #ff8c4f;
+}
+
+.social ul li:hover:nth-child(4){
+    background-color:  #4c0de0;
+}
