@@ -20,7 +20,44 @@ el contenido de la tabla, mostrando únicamente las filas que
 contengan el texto ingresado.
 
 */
-let renderDatos = () => {
+let renderDatosJson = () => {
+  fetch('data/usuarios.json')
+    .then(response => response.json())
+    .then(data => {
+      let table = document.querySelector("table#myTable")
+      
+      for (let persona of data.users){
+        let tr = document.createElement("tr")
+
+        let nombre = persona.name.split(" ")
+        
+        let td1 = document.createElement("td")
+        td1.textContent = nombre[0]
+        tr.appendChild(td1)
+
+        let td2 = document.createElement("td")
+        td2.textContent = nombre[1]
+        tr.appendChild(td2)
+
+        let td3 = document.createElement("td")
+        td3.textContent = persona.city
+        tr.appendChild(td3)
+
+        table.appendChild(tr)
+      }
+    })
+    
+    .catch( (error) => {
+
+      console.log("Error ",error)
+  
+    })
+}
+
+
+let renderDatosXML = () => {
+  
+  // DESDE AQUI EMPIEZA LA SOLUCION ANTERIOR
 
   fetch('data/datos.xml')
   .then( (resultado) => {
@@ -74,7 +111,9 @@ let renderDatos = () => {
       }
       
   }
+
   document.getElementById('datos').appendChild(table);
+  renderDatosJson()
 })
   .catch( (error) => {
 
@@ -120,6 +159,7 @@ let buscar = () =>{
   }
 //Las funciones se ejecutarán en cuanto el documento esté completamente cargado.
 document.addEventListener('DOMContentLoaded', function() {
-  renderDatos();
+  renderDatosXML();
   buscar();
+  renderDatosJson();
 })
