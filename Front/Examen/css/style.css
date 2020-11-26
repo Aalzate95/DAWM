@@ -1,0 +1,69 @@
+#contenedorTweets{
+
+  font-style: 'Times New Roman';
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  
+  
+}
+
+.card{
+
+  padding:15px;
+  margin:20px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  display:grid;
+  grid-template-columns:1fr 9fr;
+
+}
+
+[name = "usuario"]{
+  font-style: italic;
+}
+
+[name = "subtitulo"]{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 12px;
+}
+
+[name = "fecha"]{
+  text-align: right;
+}
+
+[name="foto"]{
+  margin-top:50%;
+  margin-right: 10px;
+  width:30px;
+  height:30px;
+}
+
+[name="contenedor"]{
+  width:100%;
+}
+
+[name = "buttonContainer"]{
+  text-align: center;
+}
+[name = "seguir"]{
+  background-color:deepskyblue;
+  border-radius: 4px;
+}
+#buscador{
+  text-align: center;
+}
+
+#myInput{
+  width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #contenedorTweets{
+    grid-template-columns: 100% ;
+    
+  }
+}
