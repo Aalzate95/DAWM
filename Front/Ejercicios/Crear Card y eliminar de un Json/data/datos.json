@@ -1,0 +1,802 @@
+[
+	{
+		"Nombre": "Miranda",
+		"Apellido": "Whitaker",
+		"Matricula": "16230721 2288",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 100
+	},
+	{
+		"Nombre": "Robin",
+		"Apellido": "Page",
+		"Matricula": "16380803 1169",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 33
+	},
+	{
+		"Nombre": "MacKensie",
+		"Apellido": "Campos",
+		"Matricula": "16180322 2452",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 18
+	},
+	{
+		"Nombre": "Sandra",
+		"Apellido": "Johnson",
+		"Matricula": "16110415 8595",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 74
+	},
+	{
+		"Nombre": "Aurelia",
+		"Apellido": "Montoya",
+		"Matricula": "16500409 5963",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 81
+	},
+	{
+		"Nombre": "Medge",
+		"Apellido": "Owen",
+		"Matricula": "16611125 1895",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 72
+	},
+	{
+		"Nombre": "Abbot",
+		"Apellido": "Alston",
+		"Matricula": "16980218 6529",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 79
+	},
+	{
+		"Nombre": "Orlando",
+		"Apellido": "Richardson",
+		"Matricula": "16190630 9859",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 64
+	},
+	{
+		"Nombre": "Hedwig",
+		"Apellido": "Roy",
+		"Matricula": "16120707 7411",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 51
+	},
+	{
+		"Nombre": "McKenzie",
+		"Apellido": "Monroe",
+		"Matricula": "16811204 7413",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 31
+	},
+	{
+		"Nombre": "Beck",
+		"Apellido": "Sharp",
+		"Matricula": "16060209 7602",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 20
+	},
+	{
+		"Nombre": "Perry",
+		"Apellido": "Cunningham",
+		"Matricula": "16760114 5241",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 57
+	},
+	{
+		"Nombre": "Mona",
+		"Apellido": "Lawson",
+		"Matricula": "16271007 7625",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 90
+	},
+	{
+		"Nombre": "Karina",
+		"Apellido": "Ayers",
+		"Matricula": "16190511 0985",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 65
+	},
+	{
+		"Nombre": "Phelan",
+		"Apellido": "Middleton",
+		"Matricula": "16770614 3463",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 10
+	},
+	{
+		"Nombre": "Odessa",
+		"Apellido": "Welch",
+		"Matricula": "16970920 5323",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 14
+	},
+	{
+		"Nombre": "Urielle",
+		"Apellido": "Buchanan",
+		"Matricula": "16550310 1098",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 3
+	},
+	{
+		"Nombre": "Alfonso",
+		"Apellido": "Russell",
+		"Matricula": "16180707 3133",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 13
+	},
+	{
+		"Nombre": "Quyn",
+		"Apellido": "Ford",
+		"Matricula": "16041230 8132",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 47
+	},
+	{
+		"Nombre": "Castor",
+		"Apellido": "Stewart",
+		"Matricula": "16001015 2635",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 99
+	},
+	{
+		"Nombre": "Slade",
+		"Apellido": "Bauer",
+		"Matricula": "16430311 4120",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 11
+	},
+	{
+		"Nombre": "Debra",
+		"Apellido": "Frye",
+		"Matricula": "16171003 7506",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 10
+	},
+	{
+		"Nombre": "Deborah",
+		"Apellido": "Francis",
+		"Matricula": "16620120 9233",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 99
+	},
+	{
+		"Nombre": "Britanney",
+		"Apellido": "Chan",
+		"Matricula": "16020203 3080",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 45
+	},
+	{
+		"Nombre": "Adrian",
+		"Apellido": "Chan",
+		"Matricula": "16060214 7282",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 34
+	},
+	{
+		"Nombre": "Emma",
+		"Apellido": "Welch",
+		"Matricula": "16860811 5088",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 20
+	},
+	{
+		"Nombre": "Colby",
+		"Apellido": "Patrick",
+		"Matricula": "16270711 5016",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 74
+	},
+	{
+		"Nombre": "Finn",
+		"Apellido": "Juarez",
+		"Matricula": "16201115 3091",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 82
+	},
+	{
+		"Nombre": "Buffy",
+		"Apellido": "Sutton",
+		"Matricula": "16851104 6958",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 40
+	},
+	{
+		"Nombre": "Amaya",
+		"Apellido": "Vazquez",
+		"Matricula": "16220524 3369",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 41
+	},
+	{
+		"Nombre": "Jaquelyn",
+		"Apellido": "Fuentes",
+		"Matricula": "16380308 6416",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 6
+	},
+	{
+		"Nombre": "Quinlan",
+		"Apellido": "Vaughan",
+		"Matricula": "16960104 1602",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 11
+	},
+	{
+		"Nombre": "Naomi",
+		"Apellido": "Moreno",
+		"Matricula": "16710525 2063",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 97
+	},
+	{
+		"Nombre": "Jarrod",
+		"Apellido": "Gutierrez",
+		"Matricula": "16930907 1737",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 67
+	},
+	{
+		"Nombre": "Kaseem",
+		"Apellido": "Simmons",
+		"Matricula": "16300626 0123",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 91
+	},
+	{
+		"Nombre": "Timon",
+		"Apellido": "Campos",
+		"Matricula": "16821229 6969",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 37
+	},
+	{
+		"Nombre": "Ruth",
+		"Apellido": "Wooten",
+		"Matricula": "16190426 7356",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 45
+	},
+	{
+		"Nombre": "Ima",
+		"Apellido": "Thompson",
+		"Matricula": "16040707 0911",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 75
+	},
+	{
+		"Nombre": "Eric",
+		"Apellido": "Reynolds",
+		"Matricula": "16760408 3712",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 4
+	},
+	{
+		"Nombre": "Irene",
+		"Apellido": "Roman",
+		"Matricula": "16240221 2704",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 11
+	},
+	{
+		"Nombre": "Christian",
+		"Apellido": "Harding",
+		"Matricula": "16410730 1857",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 64
+	},
+	{
+		"Nombre": "Natalie",
+		"Apellido": "West",
+		"Matricula": "16560615 6262",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 33
+	},
+	{
+		"Nombre": "Ryan",
+		"Apellido": "Gallagher",
+		"Matricula": "16801126 9407",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 53
+	},
+	{
+		"Nombre": "Leilani",
+		"Apellido": "Castillo",
+		"Matricula": "16600820 9576",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 46
+	},
+	{
+		"Nombre": "Elton",
+		"Apellido": "Patrick",
+		"Matricula": "16690517 2497",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 25
+	},
+	{
+		"Nombre": "Jerome",
+		"Apellido": "Carpenter",
+		"Matricula": "16250202 3829",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 61
+	},
+	{
+		"Nombre": "Hilda",
+		"Apellido": "Williamson",
+		"Matricula": "16320808 4784",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 82
+	},
+	{
+		"Nombre": "Kiona",
+		"Apellido": "Woodward",
+		"Matricula": "16110411 9324",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 12
+	},
+	{
+		"Nombre": "Maya",
+		"Apellido": "Justice",
+		"Matricula": "16060911 2610",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 71
+	},
+	{
+		"Nombre": "Odysseus",
+		"Apellido": "Morris",
+		"Matricula": "16630323 8502",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 89
+	},
+	{
+		"Nombre": "Ava",
+		"Apellido": "Hahn",
+		"Matricula": "16970820 0630",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 90
+	},
+	{
+		"Nombre": "Knox",
+		"Apellido": "Mcfadden",
+		"Matricula": "16430422 7202",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 6
+	},
+	{
+		"Nombre": "Jin",
+		"Apellido": "Jacobson",
+		"Matricula": "16250708 9734",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 33
+	},
+	{
+		"Nombre": "Timon",
+		"Apellido": "Roach",
+		"Matricula": "16050809 9413",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 6
+	},
+	{
+		"Nombre": "Philip",
+		"Apellido": "Spence",
+		"Matricula": "16920225 0248",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 85
+	},
+	{
+		"Nombre": "Cruz",
+		"Apellido": "Fox",
+		"Matricula": "16740701 4682",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 33
+	},
+	{
+		"Nombre": "Quyn",
+		"Apellido": "Grimes",
+		"Matricula": "16020518 6661",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 30
+	},
+	{
+		"Nombre": "Sebastian",
+		"Apellido": "Bowers",
+		"Matricula": "16860512 7961",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 14
+	},
+	{
+		"Nombre": "Summer",
+		"Apellido": "Hyde",
+		"Matricula": "16391216 7263",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 79
+	},
+	{
+		"Nombre": "Ora",
+		"Apellido": "Hyde",
+		"Matricula": "16650729 1117",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 17
+	},
+	{
+		"Nombre": "Ulric",
+		"Apellido": "Sharpe",
+		"Matricula": "16420317 6195",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 44
+	},
+	{
+		"Nombre": "Charlotte",
+		"Apellido": "Buckley",
+		"Matricula": "16910908 0706",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 43
+	},
+	{
+		"Nombre": "Kasimir",
+		"Apellido": "Benjamin",
+		"Matricula": "16740414 9861",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 72
+	},
+	{
+		"Nombre": "Keegan",
+		"Apellido": "Castaneda",
+		"Matricula": "16290115 7186",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 74
+	},
+	{
+		"Nombre": "Ivor",
+		"Apellido": "Schneider",
+		"Matricula": "16930829 9610",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 54
+	},
+	{
+		"Nombre": "Baxter",
+		"Apellido": "Avila",
+		"Matricula": "16440205 5224",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 11
+	},
+	{
+		"Nombre": "Brennan",
+		"Apellido": "Murphy",
+		"Matricula": "16361025 5444",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 69
+	},
+	{
+		"Nombre": "Tatiana",
+		"Apellido": "Peck",
+		"Matricula": "16060407 2058",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 38
+	},
+	{
+		"Nombre": "Jameson",
+		"Apellido": "Clemons",
+		"Matricula": "16580917 9491",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 1
+	},
+	{
+		"Nombre": "Demetria",
+		"Apellido": "Pruitt",
+		"Matricula": "16621210 6428",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 2
+	},
+	{
+		"Nombre": "Brandon",
+		"Apellido": "Mcfarland",
+		"Matricula": "16351118 7332",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 28
+	},
+	{
+		"Nombre": "Suki",
+		"Apellido": "Guy",
+		"Matricula": "16370528 1388",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 79
+	},
+	{
+		"Nombre": "Kendall",
+		"Apellido": "Christensen",
+		"Matricula": "16480425 3542",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 92
+	},
+	{
+		"Nombre": "Harper",
+		"Apellido": "Henson",
+		"Matricula": "16630423 5424",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 19
+	},
+	{
+		"Nombre": "Quemby",
+		"Apellido": "Park",
+		"Matricula": "16641216 2106",
+		"Materia": "DAWM",
+		"añoRegistro": 2016,
+		"Promedio": 55
+	},
+	{
+		"Nombre": "Sonya",
+		"Apellido": "Powell",
+		"Matricula": "16100113 3501",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 76
+	},
+	{
+		"Nombre": "Caleb",
+		"Apellido": "Curtis",
+		"Matricula": "16560909 8917",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 12
+	},
+	{
+		"Nombre": "Imelda",
+		"Apellido": "Beard",
+		"Matricula": "16381210 2519",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 98
+	},
+	{
+		"Nombre": "Randall",
+		"Apellido": "Walsh",
+		"Matricula": "16680302 9203",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 63
+	},
+	{
+		"Nombre": "Karen",
+		"Apellido": "Kidd",
+		"Matricula": "16280322 2252",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 0
+	},
+	{
+		"Nombre": "Jonas",
+		"Apellido": "Nichols",
+		"Matricula": "16440901 9744",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 31
+	},
+	{
+		"Nombre": "Desirae",
+		"Apellido": "Emerson",
+		"Matricula": "16440113 9045",
+		"Materia": "DAWM",
+		"añoRegistro": 2015,
+		"Promedio": 3
+	},
+	{
+		"Nombre": "Carter",
+		"Apellido": "Crawford",
+		"Matricula": "16740729 0506",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 62
+	},
+	{
+		"Nombre": "Gary",
+		"Apellido": "Lambert",
+		"Matricula": "16501013 5571",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 42
+	},
+	{
+		"Nombre": "Beck",
+		"Apellido": "Hampton",
+		"Matricula": "16591015 4227",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 70
+	},
+	{
+		"Nombre": "Oprah",
+		"Apellido": "Delgado",
+		"Matricula": "16571026 4176",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 3
+	},
+	{
+		"Nombre": "Griffith",
+		"Apellido": "Poole",
+		"Matricula": "16250903 4597",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 4
+	},
+	{
+		"Nombre": "Cassady",
+		"Apellido": "Cabrera",
+		"Matricula": "16840830 3298",
+		"Materia": "DAWM",
+		"añoRegistro": 2017,
+		"Promedio": 95
+	},
+	{
+		"Nombre": "Kendall",
+		"Apellido": "Ball",
+		"Matricula": "16550512 8735",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 90
+	},
+	{
+		"Nombre": "Sawyer",
+		"Apellido": "Hall",
+		"Matricula": "16850727 1669",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 62
+	},
+	{
+		"Nombre": "Mira",
+		"Apellido": "Cunningham",
+		"Matricula": "16590727 6082",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 44
+	},
+	{
+		"Nombre": "Porter",
+		"Apellido": "Ramsey",
+		"Matricula": "16611124 2050",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 47
+	},
+	{
+		"Nombre": "Claudia",
+		"Apellido": "Cooley",
+		"Matricula": "16250415 2337",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 32
+	},
+	{
+		"Nombre": "Matthew",
+		"Apellido": "Blankenship",
+		"Matricula": "16370326 6506",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 23
+	},
+	{
+		"Nombre": "Preston",
+		"Apellido": "Mullins",
+		"Matricula": "16261207 2245",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 97
+	},
+	{
+		"Nombre": "Geoffrey",
+		"Apellido": "Yang",
+		"Matricula": "16180314 9465",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 69
+	},
+	{
+		"Nombre": "Celeste",
+		"Apellido": "Vega",
+		"Matricula": "16860827 5221",
+		"Materia": "DAWM",
+		"añoRegistro": 2014,
+		"Promedio": 44
+	},
+	{
+		"Nombre": "Chaney",
+		"Apellido": "Obrien",
+		"Matricula": "16341113 9532",
+		"Materia": "DAWM",
+		"añoRegistro": 2019,
+		"Promedio": 58
+	},
+	{
+		"Nombre": "Eric",
+		"Apellido": "Gardner",
+		"Matricula": "16161122 7172",
+		"Materia": "DAWM",
+		"añoRegistro": 2018,
+		"Promedio": 33
+	},
+	{
+		"Nombre": "Aretha",
+		"Apellido": "Best",
+		"Matricula": "16211020 1148",
+		"Materia": "DAWM",
+		"añoRegistro": 2020,
+		"Promedio": 65
+	}
+]
