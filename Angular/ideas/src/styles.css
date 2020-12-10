@@ -1,0 +1,419 @@
+/* Add application styles & imports to this file! */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/*
+	Aplicar a todos los elementos,
+	la propiedad: 
+		font-family: 'Lato', sans-serif;
+*/
+
+* {
+  font-family: "Lato", "Georgia", sans-serif;
+}
+
+/*
+	Aplicar al elemento con el id "cabecera",
+	las propiedades
+		background-color: #f9daae;
+    text-align: center;
+    padding: 1% 0 1% 0;	
+*/
+
+#cabecera {
+  background-color: rgb(22, 176, 230);
+  text-align: center;
+  padding: 1% 0 1% 0;
+}
+
+/*
+  Aplicar a los elementos li, la propiedad:
+    list-style-type: none;
+*/
+
+li {
+  list-style-type: none;
+}
+
+/*
+  Aplicar a todas las etiquetas con la clase 'tituloseccion', la propiedad:
+    color: #2A457F;
+*/
+
+.tituloseccion {
+  color: #2a457f;
+}
+
+/*
+  Aplicar a todas las etiquetas h3 y p,
+  la propiedad: 
+    margin-left: 3rem;
+    margin-right: 3rem;
+*/
+
+h3,
+p {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+/*
+	Aplicar a la etiqueta a, que se encuentra dentro de la etiqueta div dentro de la etiqueta section (con id contenido), las propiedades:
+    text-decoration: none;
+    color: #107ad1;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 3rem;
+*/
+
+section#contenido div a {
+  text-decoration: none;
+  color: #107ad1;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 3rem;
+}
+
+/*
+  Aplicar a todas las etiquetas p, que sean hijas de la etiqueta footer, las propiedades:
+    margin-top: 8%;
+    text-align: center;
+*/
+
+footer > p {
+  margin-top: 8%;
+  text-align: center;
+}
+
+/*
+  Aplicar a la etiqueta img, que es adyacente a la etiqueta h2, las siguientes propiedades:
+    width: 30%;
+*/
+
+h2 + img {
+  width: 30%;
+}
+
+/*
+  Agrega a todos los hermanos p de la etiqueta h3
+  la propiedad:
+    text-align: justify;
+*/
+
+h3 ~ p {
+  text-align: justify;
+}
+
+/*
+  Agrega a las etiquetas a cuyo atributo title termine por "pik" las propiedades:
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+
+  Desde Google Fonts, importe la fuente Caveat
+
+    font-family: 'Caveat', cursive;
+*/
+
+a[title$="pik"] {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Caveat", cursive;
+}
+
+/*
+  Aplicar las siguientes propiedades:
+
+  li:hover a::before {
+    content: "[";
+  }
+
+  li:hover a::after {
+    content: "]";
+  }
+
+  li:hover a:hover {
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: #2a457f;
+  }
+
+  li a { 
+    float: left;
+    margin-left: 2%;
+  }
+
+  nav#navegacion {
+    padding-bottom: 39px;
+  }
+*/
+
+/*li:hover a::before {
+  content: "[";
+}
+
+li:hover a::after {
+  content: "]";
+}
+
+li:hover a:hover {
+  font-weight: bold;
+}*/
+
+a:visited {
+  color: #2a457f;
+}
+
+li a {
+  float: left;
+  margin-left: 2%;
+}
+
+nav#navegacion {
+  padding-bottom: 39px;
+}
+
+/*
+  Aplicar las siguientes propiedades:
+  
+    p::-moz-selection {
+      background: #f1c40f;
+    }
+
+    p::selection {
+      background: #f1c40f;
+    }
+*/
+
+p::-moz-selection {
+  background: #f1c40f;
+}
+
+p::selection {
+  background: #f1c40f;
+}
+
+/*
+  Aplique las siguientes propiedades a div#ideas y div#pensamientos:
+
+    float: left;
+    width: 49%;
+
+    -------
+
+    display: inline-block;
+    width: 49%;
+*/
+
+/*div#ideas, div#pensamientos {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}*/
+
+header,
+section h2 {
+  display: none !important;
+}
+
+/* Relative */
+
+#description {
+  position: relative;
+  display: inline-block;
+}
+
+/* Absolute */
+
+#description .tooltip {
+  visibility: hidden;
+  width: 300px;
+  background-color: #158db5;
+  color: white;
+  text-align: justify;
+  padding: 2px 0;
+  border-radius: 6px;
+
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  margin-left: -120px;
+}
+
+img:hover + #description .tooltip {
+  visibility: visible;
+}
+
+/* Fixed */
+
+div#chat {
+  background-color: #0e89b2;
+  border: 1px solid #0e89b2;
+  border-radius: 6px 6px 0 0;
+  padding: 0 2% 0;
+}
+
+div#chat h4 {
+  margin: 4% 0 4%;
+  color: #ffffff;
+}
+
+div#chat {
+  position: fixed;
+  bottom: 0;
+  right: 2%;
+  z-index: 999;
+}
+
+/* Sticky */
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 999;
+}
+
+/* */
+.persona {
+  background-image: url("../img/personas.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+#persona1 {
+  background-position: -13px -5px;
+}
+
+#persona2 {
+  background-position: -213px -5px;
+}
+
+#persona3 {
+  background-position: -413px -5px;
+}
+
+#persona4 {
+  background-position: -13px -230px;
+}
+
+#persona5 {
+  background-position: -213px -230px;
+}
+
+#persona6 {
+  background-position: -413px -230px;
+}
+
+#persona7 {
+  background-position: -13px -5px;
+}
+
+#persona8 {
+  background-position: -213px -5px;
+}
+
+#persona9 {
+  background-position: -413px -5px;
+}
+
+#persona10 {
+  background-position: -13px -230px;
+}
+
+#persona11 {
+  background-position: -213px -230px;
+}
+
+#persona12 {
+  background-position: -413px -230px;
+}
+
+/* Grid vs Flexbox */
+
+/* Grid */
+
+/* 
+  Grid 
+  https://css-tricks.com/snippets/css/complete-guide-grid/
+*/
+#contenedor {
+  /*
+    Revisar la diferencia entre los valores de display
+    grid e inline-grid
+
+      display: inline-grid;
+  */
+
+  /*
+    Experimenta con otras distribuciones de columnas en el grid
+      grid-template-columns: 25% 25% 25% 25%;
+  */
+
+  /*
+    Experimenta con otras distribuciones de filas en el grid
+      grid-template-rows: repeat(2, 230px);
+   */
+
+  /*
+  
+    Experimenta con el espacio de separación entre filas y columnas
+
+      grid-column-gap: 10px;
+      grid-row-gap: 15px;
+  */
+}
+
+/* 
+  Flexbox 
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+#contenedor {
+  /*
+    Revisar el efecto del valor de display
+    como flex
+
+      display: flex;
+  */
+
+  display: flex;
+
+  /*
+    Experimenta con otras direcciones en con 
+    
+    flex-direction: 
+      row | row-reverse | column | column-reverse
+  */
+
+  flex-direction: row;
+
+  /*
+    Experimenta con otros valores para ajustar los elementos en una fila con
+    
+    flex-wrap:
+      nowrap | wrap | wrap-reverse
+  */
+
+  flex-wrap: wrap;
+}
+
+/**/
+
+section#personas {
+  text-align: center;
+}
+
+section[id^="datos"] {
+  display: inline-block;
+  width: 49%;
+}
+
+section[id^="datos"] > table {
+  margin: 0 30% 0 30%;
+}
+
+section[id^="datos"] {
+  margin-top: 2%;
+}
