@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= titulo %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        <%= titulo %>
+    </h1>
+    <ul class="timeline">
+        <% for (var i = 0; i < maestros.length; i++) { %>
+        <li class="timeline-yellow">
+            <div class="timeline-time">
+                <span class="date">
+                    <%= maestros[i].titulo %>
+                </span>
+                <span class="time">
+                    <%= maestros[i].fecha %> </span>
+            </div>
+        </li>
+        <% } %>
+    </ul>
+</body>
+
+</html>

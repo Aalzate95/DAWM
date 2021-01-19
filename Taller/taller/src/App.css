@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  
+}
+.Libros{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+}
+
+.Card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  background-color: #F8F8FF;
+  margin: 20px ;
+  height:300px;
+  width:auto;
+
+}

@@ -46,17 +46,67 @@ exports.findAll = (req, res) => {
 
 // Find a single Maestro with an id
 exports.findOne = (req, res) => {
-  
+  Maestro.findOne({'attributes.id':req.params.id})
+    .then(data => {
+      if(!data) {
+        return res.status(404).send({
+            message: "Maestro no encontrado con ese ID " 
+        });
+      }
+      res.send(data);
+    })
+    .catch(err => {
+      res.status(500).send({
+        message:
+          err.message || "Some error occurred while retrieving maestros."
+      });
+    });
 };
 
 // Update a Maestro by the id in the request
 exports.update = (req, res) => {
+  let id = req.body.id;
+  let titulo = req.body.titulo;
+  let fecha = req.body.fecha;
   
-};
+    // validation
+    if (!id || !titulo || !fecha) {
+        return res.status(400).send({ error: titulo, message: 'Por favor inserte un id valido' });
+    }
+    db.query("UPDATE maestros SET titulo = ?, fecha = ? WHERE id = ?", [titulo, fecha, id], function (error, results, fields) {
+        if (error) throw error;
+
+        // check data updated or not
+        let message = "";
+        if (results.changedRows === 0)
+            message = "Maestro not found or data are same";
+        else
+            message = "Maestro successfully updated";
+
+        return res.send({ error: false, data: results, message: message });
+    });
+  
+}
 
 // Delete a Maestro with the specified id in the request
 exports.delete = (req, res) => {
+  let id = req.body.id;
   
+    if (!id) {
+        return res.status(400).send({ error: true, message: 'Please provide maestro id' });
+    }
+    dbConn.query('DELETE FROM maestros WHERE id = ?', [id], function (error, results, fields) {
+        if (error) throw error;
+
+        // check data updated or not
+        let message = "";
+        if (results.affectedRows === 0)
+            message = "Maestro not found";
+        else
+            message = "Maestro successfully deleted";
+
+        return res.send({ error: false, data: results, message: message });
+    });
 };
 
 // Delete all Maestros from the database.

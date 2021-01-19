@@ -5,5 +5,8 @@ const maestroController = require("../controllers/maestro.controller.js");
 
 router.get('/', maestroController.findAll);
 router.post('/save',  maestroController.create);
-
+router.get('/find', maestroController.findOne)
+router.put('/update',  maestroController.update);
+router.delete('/delete',maestroController.delete)
+router.delete('/deleteAll',maestroController.deleteAll)
 module.exports = router;
