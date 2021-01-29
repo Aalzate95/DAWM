@@ -1,3 +1,5 @@
+Es necesario tener yarn y hacer yarn install antes de hacelro funcionar.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
